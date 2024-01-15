@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 11, 55, 0.5),
+      rgba(1, 11, 55, 0.5)
+    ),
+    url("../assets/landscape-3369304.jpg");
+  background-size: cover;
+}
+
+.main {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}

@@ -1,0 +1,34 @@
+.fiveDayForecast {
+  margin-top: 50px;
+  padding: 30px;
+  color: white;
+}
+
+.fiveDayForecast .title {
+  text-align: center;
+  /* color:white; */
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card {
+  background-color: rgba(4, 4, 92, 0.279);
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* @media screen and (max-width: 560px) {
+  .fiveDayForecast {
+    margin-top: 50px;
+  }
+} */
